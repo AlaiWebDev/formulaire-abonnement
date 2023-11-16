@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-style: normal;
+}
+
+header {
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgb(194, 191, 191);
+  text-align: center;
+}
+header h1 {
+  font-size: 1.5rem;
+}
+
+.main {
+  width: 30%;
+  margin-top: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main fieldset {
+  padding: 0.5rem;
+}
+.main label {
+  display: block;
+  margin: 5px auto;
+  text-align: right;
+}
+.main-h1 {
+  text-align: center;
+  font-size: 40px;
+  color: darkred;
+}
+.main .identite .civilite {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.main .identite .civilite .genre {
+  display: flex;
+}
+.main .identite .civilite .genre label {
+  margin: 0 0.5rem;
+}
+.main address {
+  display: flex;
+  flex-direction: column;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.main address .address-list, .main address .address-list2 {
+  width: -moz-max-content;
+  width: max-content;
+  margin-right: 0;
+  list-style-type: none;
+}
+.main address .address-list .content, .main address .address-list2 .content {
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+  background-color: cadetblue;
+  color: black;
+  border-bottom: 1px solid black;
+}
+.main address .address-list .content .content p, .main address .address-list2 .content .content p {
+  padding: 5px;
+  font-style: italic;
+}
+.main address .address-list li:hover p, .main address .address-list2 li:hover p {
+  font-style: italic;
+  font-weight: bold;
+}
+.main address #input_zipcode_bill, .main address #input_zipcode_deliv {
+  width: 3rem;
+}
+.main h2 {
+  font-size: 20px;
+  font-weight: unset;
+}
+.main button {
+  display: block;
+  margin: 0.2rem auto;
+  padding: 0.5rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: rgb(194, 191, 191);
+  color: rgb(235, 42, 20);
+}/*# sourceMappingURL=style.css.map */

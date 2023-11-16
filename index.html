@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="module" src="./assets/js/script.js"></script>
+    <title>Formulaire d'abonnement</title>
+</head>
+<body>
+    <header>
+        <h1>Code of the Day</h1>
+        <h2>Le quotidien des développeurs en herbe !</h2>
+        <p>Bienvenue sur le portail d'inscription à notre liste d'abonnement</p>
+        <p>Ici vous pourrez demander à ce que votre journal préféré vous soit livré chaque jour</p>
+        <p>Dès que nos équipes recevront votre demande, vous serez contacter par courrier électronique</p>
+    </header>
+    <main class="main">
+        <h1 class="main-h1">Fomulaire d'inscription</h1>
+        <form action="#" method="post">
+            <fieldset class="identite">
+                <legend>Identité</legend>
+                <div class="civilite">
+                    <div class="genre">
+                        <label for="radio_mr">Monsieur <input type="radio" name="genre" id="radio_mr" data-content="mister" checked>
+                        </label>
+                        <label for="radio_ms">Madame <input type="radio" name="genre" id="radio_ms" data-content="miss">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="input_lastname">Nom : <input type="text" id="input_lastname" checked>
+                        </label>
+                        <label for="input_firstname">Prénom : <input type="text" id="input_firstname">
+                        </label>
+                        <label for="input_email">E-mail : <input type="text" id="input_email">
+                        </label>
+                    </div>
+                    
+                </div>
+            </fieldset>
+            <fieldset class="addresse-facturation">
+                <legend><h2>Adresse de facturation</h2></legend>
+                <address>
+                    <label for="input_street_bill">Rue : <input type="text" id="input_street_bill">
+                    </label>
+                    <ul class="address-list">
+                        <li>
+                            <p></p>
+                            <p></p>
+                        </li>
+                    </ul>
+                    <label for="input_city_bill">Ville : <input type="text" id="input_city_bill">
+                    </label>
+                    <label for="input_zipcode_bill">Code postal : <input type="text" id="input_zipcode_bill">
+                    </label>
+                </address>
+            </fieldset>
+            <fieldset class="addresse-livraison">
+                <legend>Adresse de livraison</legend>
+                <address>
+                    <label for="input_street_deliv">Rue : <input type="text" name="" id="input_street_deliv">
+                    </label>
+                    <ul class="address-list2">
+                        <li>
+                        </li>
+                    </ul>
+                    <label for="input_city_deliv">Ville : <input type="text" name="" id="input_city_deliv">
+                    </label>
+                    <label for="input_zipcode_deliv">Code postal : <input type="text" name="" id="input_zipcode_deliv">
+                    </label>
+                </address>
+            </fieldset>
+            <button type="button">Valider</button>
+            <a href="validation.html?inscription=ok" target="_blank">valider</a>
+        </form>
+        <div class="injecter"></div>
+    </main>
+    <div class="image"></div>
+    <footer>Alain ORLUK - @Code of the day - 2023</footer>
+</body>
+</html>

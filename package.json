@@ -1,0 +1,15 @@
+{
+  "name": "formulaire-abonnement",
+  "version": "1.0.0",
+  "description": "Création d'un formulaire dynamique pour l'abonnement à un quotidien papier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alain ORLUK",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "sass": "^1.69.5"
+  }
+}
